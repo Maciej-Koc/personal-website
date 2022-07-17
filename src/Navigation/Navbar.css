@@ -1,0 +1,45 @@
+@font-face {
+    font-family: robotoCondensedBold;
+    src: url(RobotoCondensed-Bold.ttf);
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: robotoCondensedRegular;
+    src: url(RobotoCondensed-Regular.ttf);
+    font-weight: regular;
+}
+
+.navbar{
+    justify-content: flex-end;
+    background-color: #DB3A34;
+    color: #FFC857;
+    font-size: 24px;
+    font-family: robotoCondensedBold;
+
+}
+
+.navbar-links{
+    display:flex;
+    gap: 25px;
+    margin: 10px;
+    align-items: center;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.github-logo{
+    height: 36px;
+}
+
+.logo{
+      /* align-self: flex-end;   */
+      /* align-items: center; */
+      /* justify-self: center; */
+      /* justify-content: center; */
+    /* align-items: auto; */
+    /* margin-right: 500px; */
+}
